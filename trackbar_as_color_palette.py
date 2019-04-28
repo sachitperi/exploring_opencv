@@ -19,8 +19,11 @@ cv2.getTrackbarPos()
     --> maximum value
     --> callback function (has a default value which is trackbar position )
 
+most likely All the above functionalities are for cv2.createTrackbar() and not cv2.getTrackbarPos(). I think the docs says it wrong 
+
 Another important application of trackbar is to have a button like functionality
 """
+
 
 import cv2
 import numpy as np
